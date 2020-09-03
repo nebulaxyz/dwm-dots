@@ -1,18 +1,21 @@
-# Packages & fonts
+# Packages
 
+- change to your username in *setup.sh  
+ 
+ **Line:** cp -r .config /home/*Your user name*
 
 ```
-pacman -S --needed - < bare-metal-pkgs.txt 
-(for physical hardware)                
+chmod +x *setup.sh
+(make the bash executable)
 
-pacman -S --needed - < vm-pkgs.txt 
+ ./bare-setup.sh
+(for physical hardware)                
+ 
+ ./vm-setup.sh
 (for virtual machine)
 
 pacman -Qqe > pkgs.txt 
 (creates backup of current packages)
-
-cp -r .config /home/"Your user name"
-(copies configs to home directory)
 ```
 
 ```
