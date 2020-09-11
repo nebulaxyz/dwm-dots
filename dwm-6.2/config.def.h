@@ -56,7 +56,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *roficmd[]      =  { "rofi -show drun", NULL };
+static const char *dmenucmd[]      = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont,"-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf",col_gray4, NULL };
 static const char *termcmd[]       = { "termite", NULL };
 static const char *firefoxcmd[]    = { "firefox", NULL };
 static const char *telegramcmd[]   = { "telegram-desktop", NULL };
@@ -65,14 +65,13 @@ static const char *volraise[]	   = { "pulsemixer", "--change-volume", "+5",  NUL
 static const char *volmute[]       = { "pulsemixer", "--toggle-mute",  NULL };
 static const char *fileman[]       = { "nemo", NULL };
 static const char *scrsht[]        = { "scrot", NULL };
-static const char *i3lock[]	   = { "sh .config/launch.sh", NULL };	
 static Key keys[] = {
 
-	/* modifier                     key        function        argument */
-	{ MODKEY,                       XK_p,      spawn,          {.v = roficmd } },
+	/* modifier                     key        function        argument */ 
+        { MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY,                       XK_w,      spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_f,      spawn,          {.v = firefoxcmd } },
-        { MODKEY,                       XK_t,      spawn,          {.v = telegramcmd } },
+        { MODKEY|ControlMask,           XK_t,      spawn,          {.v = telegramcmd } },
         { MODKEY,                       XK_n,      spawn,          {.v = fileman } }, 
 	{ MODKEY,                       XK_l       spawn,          {.v = i3lock } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
@@ -103,7 +102,7 @@ static Key keys[] = {
         { 0,                            XK_F3,     spawn,          {.v = volmute } },
         { 0,                            XK_F5,     spawn,          {.v = scrsht } }, 
     
-    TAGKEYS(                        XK_1,                      0)
+        TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)
 	TAGKEYS(                        XK_4,                      3)
