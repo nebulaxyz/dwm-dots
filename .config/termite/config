@@ -60,38 +60,22 @@ background = rgba(0, 0, 0, 0.7)
 #highlight = #839496
 
 # colors from color0 to color254 can be set
-
-# black
-color0=#000000
-color8=#000000
-
-# red
-color1=#ed0808
-color9=#ed0808
-
-# green
-color2=#1fed08
-color10=#1fed08
-
-# yellow
-color3=#f2ea0e
-color11=#f2ea0e
-
-# blue
-color4=#1245ed
-color12=#1245ed
-
-# magenta
-color5=#8400ac
-color13=#8400ac
-
-# cyan
-color6=#0d8df0
-color14=#0d8df0
-
-# white
-color7=#ffffff
-color15=#ffffff
+color0 = #101010
+color1 = #f07178
+color2 = #c3e88d
+color3 = #ffcb6b
+color4 = #82aaff
+color5 = #c792ea
+color6 = #89ddff
+color7 = #d0d0d0
+color8 = #434758
+color9 = #ff8b92
+color10 = #ddffa7
+color11 = #ffe585
+color12 = #9cc4ff
+color13 = #e1acff
+color14 = #a3f7ff
+color15 = #ffffff
 
 [hints]
 #font = Monospace 12
