@@ -55,17 +55,20 @@ xorg-xsetroot
 ```
 # **Custom keybindings**
 
+**Mod key - windows/command key**
+
+
 ```F5``` - screenshot
 
-```Alt+w``` - terminal
+```Mod+w``` - terminal
 
-```Alt+c``` - close working window
+```Mod+x``` - close working window
 
-```Alt+ctrl+f``` - firefox
+```Mod+f``` - firefox
 
-```Alt+ctrl+t``` - telegram
+```Mod+ctrl+t``` - telegram
 
-```Alt+ctrl+n``` - nemo file manager
+```Mod+n``` - nemo file manager
 
 ```F1``` - volume down
 
