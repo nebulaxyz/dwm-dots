@@ -44,7 +44,7 @@ static const Layout layouts[] = {
 };
 
 /* key definitions */
-#define MODKEY Mod1Mask
+#define MODKEY Mod4Mask
 #define TAGKEYS(KEY,TAG) \
 	{ MODKEY,                       KEY,      view,           {.ui = 1 << TAG} }, \
 	{ MODKEY|ControlMask,           KEY,      toggleview,     {.ui = 1 << TAG} }, \
@@ -56,7 +56,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *dmenucmd[]      = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
+static const char *roficmd[]      =  { "rofi -show drun", NULL };
 static const char *termcmd[]       = { "termite", NULL };
 static const char *firefoxcmd[]    = { "firefox", NULL };
 static const char *telegramcmd[]   = { "telegram-desktop", NULL };
@@ -65,15 +65,17 @@ static const char *volraise[]	   = { "pulsemixer", "--change-volume", "+5",  NUL
 static const char *volmute[]       = { "pulsemixer", "--toggle-mute",  NULL };
 static const char *fileman[]       = { "nemo", NULL };
 static const char *scrsht[]        = { "scrot", NULL };
+static const char *i3lock[]	   = { "sh .config/launch.sh", NULL };	
 static Key keys[] = {
 
 	/* modifier                     key        function        argument */
-	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
+	{ MODKEY,                       XK_p,      spawn,          {.v = roficmd } },
 	{ MODKEY,                       XK_w,      spawn,          {.v = termcmd } },
-	{ MODKEY|ControlMask,           XK_f,      spawn,          {.v = firefoxcmd } },
-    { MODKEY|ControlMask,           XK_t,      spawn,          {.v = telegramcmd } },
-    { MODKEY|ControlMask,           XK_n,      spawn,          {.v = fileman } }, 
-    { MODKEY,                       XK_b,      togglebar,      {0} },
+	{ MODKEY,                       XK_f,      spawn,          {.v = firefoxcmd } },
+        { MODKEY,                       XK_t,      spawn,          {.v = telegramcmd } },
+        { MODKEY,                       XK_n,      spawn,          {.v = fileman } }, 
+	{ MODKEY,                       XK_l       spawn,          {.v = i3lock } },
+	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
 	{ MODKEY,                       XK_i,      incnmaster,     {.i = +1 } },
@@ -82,7 +84,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_l,      setmfact,       {.f = +0.05} },
 	{ MODKEY,                       XK_Return, zoom,           {0} },
 	{ MODKEY,                       XK_Tab,    view,           {0} },
-	{ MODKEY,                       XK_c,      killclient,     {0} },
+	{ MODKEY,                       XK_x,      killclient,     {0} },
 	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} },
 	{ MODKEY,                       XK_f,      setlayout,      {.v = &layouts[1]} },
 	{ MODKEY,                       XK_m,      setlayout,      {.v = &layouts[2]} },
