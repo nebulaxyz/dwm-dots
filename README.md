@@ -26,6 +26,7 @@ dmenu
 celluloid
 firefox
 gvfs-mtp
+i3lock-color
 nemo
 nemo-fileroller
 nemo-terminal
@@ -38,8 +39,10 @@ pavucontrol
 picom
 pulseaudio
 pulsemixer 
+rofi
 scrot
 sxiv
+sxhkd
 termite
 ttf-font-awesome
 ttf-jetbrains-mono
@@ -66,7 +69,7 @@ xorg-xsetroot
 
 ```Mod+f``` - firefox
 
-```Mod+ctrl+t``` - telegram
+```Mod+t``` - telegram
 
 ```Mod+n``` - nemo file manager
 
@@ -75,6 +78,25 @@ xorg-xsetroot
 ```F2``` - volume up
 
 ```F3``` - mute
+
+# **sxhkd keybindings**
+
+```Print Sc``` - screenshoot
+
+```alt+l``` - lock screen
+
+```alt+F10``` - poweroff
+
+```alt+F11``` - reboot
+
+```alt+F12``` - logout
+
+```alt+space``` - rofi
+
+```alt+escape``` - reload sxhkd
+
+
+
 
 
 # samples 
