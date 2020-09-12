@@ -54,6 +54,8 @@ setxkbmap en &
 # xrandr --output Virtual-1 --mode 1920x1080 &
 # xrandr --output Virtual-1 --mode 3840x2160 &
 
+sxhkd &
+
 picom -f &
 
 slstatus &

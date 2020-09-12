@@ -1,0 +1,40 @@
+#Screenshot binding
+Print
+    scrot #'scrot-%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'
+
+
+#lockscreen script
+alt + l
+	sh .config/launch.sh
+
+
+#poweroff
+alt + F10
+    sh .config/down.sh
+
+
+#reboot
+alt + F11
+    sh .config/reboot.sh
+
+#logout
+alt + F12 
+    sh .config/logout.sh
+            
+
+
+
+
+
+#launcher
+alt + @space
+	rofi -show drun #-show combi -icon-theme "Papirus" -show-icons
+
+
+
+
+# make sxhkd reload its configuration files:
+alt + Escape
+	pkill -USR1 -x sxhkd
+
+
