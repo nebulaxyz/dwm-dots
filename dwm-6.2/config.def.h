@@ -73,7 +73,6 @@ static Key keys[] = {
 	{ MODKEY,                       XK_f,      spawn,          {.v = firefoxcmd } },
         { MODKEY|ControlMask,           XK_t,      spawn,          {.v = telegramcmd } },
         { MODKEY,                       XK_n,      spawn,          {.v = fileman } }, 
-	{ MODKEY,                       XK_l       spawn,          {.v = i3lock } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
