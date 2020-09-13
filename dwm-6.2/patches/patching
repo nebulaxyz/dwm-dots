@@ -1,0 +1,4 @@
+applying: patch < "patch name.diff"
+
+removing: patch -R < "patch name.diff"
+
