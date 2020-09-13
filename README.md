@@ -56,6 +56,8 @@ xorg-xinit
 xorg-xrandr
 xorg-xsetroot
 ```
+# **Patch added: fullgaps**
+
 # **Custom keybindings**
 
 **Mod key - windows/command key**
