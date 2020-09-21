@@ -3,6 +3,12 @@ Print
     scrot #'scrot-%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'
 
 
+#java
+#alt + j
+#   sh .config/java-fix.sh && sh /path/to/file.sh
+
+
+
 #lockscreen script
 alt + l
 	sh .config/launch.sh
@@ -23,18 +29,12 @@ alt + F12
             
 
 
-
-
-
 #launcher
 alt + @space
 	rofi -show drun #-show combi -icon-theme "Papirus" -show-icons
 
 
 
-
 # make sxhkd reload its configuration files:
 alt + Escape
 	pkill -USR1 -x sxhkd
-
-
