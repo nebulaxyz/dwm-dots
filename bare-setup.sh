@@ -2,7 +2,7 @@ sudo pacman -S arc-gtk-theme wmname celluloid firefox gvfs-mtp i3lock-color nemo
 
 cd .config && chmod +x down.sh launch.sh logout.sh reboot.sh java-fix.sh && cd ..
 
-cp -r .config .xinitrc /home/nebula && cd dwm-6.2
+cp -r .config .xinitrc /$HOME/ && cd dwm-6.2
 
 sudo rm config.h && sudo make clean install && cd ..
 
