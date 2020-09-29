@@ -1,4 +1,4 @@
-sudo pacman -S arc-gtk-theme wmname transmission-gtk celluloid firefox gvfs-mtp i3lock-color nemo nemo-fileroller nemo-terminal neofetch nitrogen ntfs-3g pamixer papirus-icon-theme pavucontrol picom pulseaudio pulsemixer rofi scrot sxiv sxhkd termite ttf-font-awesome ttf-jetbrains-mono udiskie vim wget xed xorg-server xorg-xinit xorg-xrandr xorg-xsetroot --noconfirm
+sudo pacman -S arc-gtk-theme cmus wmname transmission-gtk celluloid firefox gvfs-mtp i3lock-color nemo nemo-fileroller nemo-terminal neofetch nitrogen ntfs-3g pamixer papirus-icon-theme pavucontrol picom pulseaudio pulsemixer rofi scrot sxiv sxhkd termite ttf-font-awesome ttf-jetbrains-mono udiskie vim wget xed xorg-server xorg-xinit xorg-xrandr xorg-xsetroot --noconfirm
 
 cd .config && chmod +x down.sh launch.sh logout.sh reboot.sh java-fix.sh && cd ..
 
