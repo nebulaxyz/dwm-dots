@@ -99,10 +99,10 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_equal,  setgaps,        {.i = 0  } },
 
     /*volume keys and screenshoot key*/
-     { 0,                            XK_F1,     spawn,          {.v = vollower } },
-     { 0,                            XK_F2,     spawn,          {.v = volraise } },
-     { 0,                            XK_F3,     spawn,          {.v = volmute } },
-     { 0,                            XK_F5,     spawn,          {.v = scrsht } }, 
+     { 0,                            XK_F5,     spawn,          {.v = vollower } },
+     { 0,                            XK_F6,     spawn,          {.v = volraise } },
+     { 0,                            XK_F7,     spawn,          {.v = volmute } },
+     { 0,                            XK_F8,     spawn,          {.v = scrsht } }, 
     
 
 	TAGKEYS(                        XK_1,                      0)
