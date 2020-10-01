@@ -64,7 +64,7 @@ static const char *telegramcmd[]   = { "telegram-desktop", NULL };
 static const char *vollower[]      = { "pulsemixer", "--change-volume", "-5",  NULL };
 static const char *volraise[]	   = { "pulsemixer", "--change-volume", "+5",  NULL  };
 static const char *volmute[]       = { "pulsemixer", "--toggle-mute",  NULL };
-static const char *fileman[]       = { "nemo", NULL };
+static const char *fileman[]       = { "pcmanfm", NULL };
 static const char *scrsht[]        = { "scrot", NULL };
 static Key keys[] = {
 	/* modifier                     key        function        argument */
