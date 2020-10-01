@@ -8,6 +8,10 @@ Print
 #   sh .config/java-fix.sh && sh /path/to/file.sh
 
 
+#pulsemixer
+alt + p
+	termite -e pulsemixer
+
 
 #music player
 alt + y
