@@ -2,7 +2,7 @@ sudo pacman -S arc-gtk-theme cmus wmname mpv firefox i3lock-color pcmanfm-gtk3 g
 
 cd .config && chmod +x down.sh launch.sh logout.sh reboot.sh java-fix.sh && cd ..
 
-cp -r .config .xinitrc /$HOME/ && cd dwm-6.2
+cp -r .config .xinitrc .vim .vimrc /$HOME/ && cd dwm-6.2
 
 sudo rm config.h && sudo make clean install && cd ..
 
