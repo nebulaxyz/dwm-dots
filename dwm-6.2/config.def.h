@@ -6,7 +6,7 @@ static const unsigned int gappx     = 7;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "JetBrainsMono-Bold:size=12" };
+static const char *fonts[]          = { "JetBrainsMono-Bold:size=12", "SymbolsNerdFont:size=12" };
 static const char dmenufont[]       = "JetBrainsMono-Bold:size=12";
 static const char col_gray1[]       = "#282a36";   //background color
 static const char col_gray2[]       = "#008080";   //inactive window border color
@@ -20,7 +20,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "", "", "III", "IV", "V", "VI", "VII", "", "" };
+static const char *tags[] = { "ﲵ", "", "", "IV", "V", "IV", "", "", "" };
 
 static const Rule rules[] = {
 	/* xprop(1):
