@@ -44,7 +44,7 @@ scrot
 sxiv
 sxhkd
 termite
-ttf-font-awesome
+ttf-nerd-fonts-symbols 
 ttf-jetbrains-mono
 udiskie
 vim
@@ -97,6 +97,9 @@ xorg-xsetroot
 
 ```alt+escape``` - reload sxhkd
 
+```alt+y``` - cmus music player
+
+```alt+p``` - pulsemixer menu
 
 
 
