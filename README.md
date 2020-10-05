@@ -22,20 +22,19 @@ pacman -Qqe > pkgs.txt
 List of packages
 ================
 arc-gtk-theme
-dmenu
-celluloid
 firefox
+gvfs
 gvfs-mtp
 i3lock-color
-nemo
-nemo-fileroller
-nemo-terminal
+file-roller
+pcmanfm-gtk3 
+transmission-gtk
+wmname
+mpv
 neofetch
 nitrogen
 ntfs-3g
-pamixer
 papirus-icon-theme
-pavucontrol
 picom
 pulseaudio
 pulsemixer 
@@ -46,7 +45,6 @@ sxhkd
 termite
 ttf-nerd-fonts-symbols 
 ttf-jetbrains-mono
-udiskie
 vim
 virtualbox-guest-utils
 wget
