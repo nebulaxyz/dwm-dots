@@ -69,8 +69,8 @@ static const struct arg args[] = {
         { netspeed_rx, " %sB/s | ", "enp0s3" },
         { netspeed_tx, " %sB/s  ", "enp0s3" },
 	//{ run_command, ": %4s | ", "amixer sget Master | awk -F\"[][]\" '/%/ { print $2 }' | head -n1" },
-	{ cpu_perc, "[CPU  %s] ", NULL	      },
-	{ ram_perc, "[RAM  %s] ", NULL	      }, 
+	{ cpu_perc, " %s | ", NULL	      },
+	{ ram_perc, " %s  ", NULL	      }, 	
 	{ datetime, "%s",           "%a %b %d %H:%M %Y" },   
 
 };
