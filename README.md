@@ -1,4 +1,4 @@
-# Packages
+# Installation
 
 ```
 chmod +x *setup.sh
