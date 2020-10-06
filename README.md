@@ -57,7 +57,7 @@ xorg-xsetroot
 **Mod key - windows/command key**
 
 
-```F5``` - screenshot
+```F8``` - screenshot
 
 ```Mod+w``` - terminal
 
@@ -67,13 +67,13 @@ xorg-xsetroot
 
 ```Mod+t``` - telegram
 
-```Mod+n``` - nemo file manager
+```Mod+n``` - pcmanfm file manager
 
-```F1``` - volume down
+```F5``` - volume down
 
-```F2``` - volume up
+```F6``` - volume up
 
-```F3``` - mute
+```F7``` - mute
 
 # **sxhkd keybindings**
 
