@@ -54,7 +54,7 @@ xorg-xinit
 xorg-xrandr
 xorg-xsetroot
 ```
-# **Patch added: fullgaps**
+# **Patch added: fullgaps, notitle**
 
 # **Custom keybindings**
 

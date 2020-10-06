@@ -6,13 +6,13 @@ static const unsigned int gappx     = 7;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "JetBrainsMono-Bold:size=12" };
+static const char *fonts[]          = { "JetBrainsMono-Bold:size=12", "SymbolsNerdFont:size=12" };
 static const char dmenufont[]       = "JetBrainsMono-Bold:size=12";
-static const char col_gray1[]       = "#000000";
-static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#eeeeee";
-static const char col_cyan[]        = "#353637";
+static const char col_gray1[]       = "#282a36";   //background color
+static const char col_gray2[]       = "#008080";   //inactive window border color
+static const char col_gray3[]       = "#ffffff";   //font color
+static const char col_gray4[]       = "#A3BE8C";   //current tag and current window font color
+static const char col_cyan[]        = "#4C566A";   //Top bar second color (blue) and active window border color
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
@@ -20,7 +20,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+static const char *tags[] = { "ﲵ", "", "", "IV", "V", "VI", "", "", "" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -64,16 +64,16 @@ static const char *telegramcmd[]   = { "telegram-desktop", NULL };
 static const char *vollower[]      = { "pulsemixer", "--change-volume", "-5",  NULL };
 static const char *volraise[]	   = { "pulsemixer", "--change-volume", "+5",  NULL  };
 static const char *volmute[]       = { "pulsemixer", "--toggle-mute",  NULL };
-static const char *fileman[]       = { "nemo", NULL };
+static const char *fileman[]       = { "pcmanfm", NULL };
 static const char *scrsht[]        = { "scrot", NULL };
 static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY,                       XK_w,      spawn,          {.v = termcmd } },
-    { MODKEY,                       XK_f,      spawn,          {.v = firefoxcmd } },
-    { MODKEY,                       XK_t,      spawn,          {.v = telegramcmd } },
-    { MODKEY,                       XK_n,      spawn,          {.v = fileman } }, 
-    { MODKEY,                       XK_b,      togglebar,      {0} },
+        { MODKEY,                       XK_f,      spawn,          {.v = firefoxcmd } },
+        { MODKEY,                       XK_t,      spawn,          {.v = telegramcmd } },
+        { MODKEY,                       XK_n,      spawn,          {.v = fileman } }, 
+        { MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
 	{ MODKEY,                       XK_i,      incnmaster,     {.i = +1 } },
@@ -99,10 +99,10 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_equal,  setgaps,        {.i = 0  } },
 
     /*volume keys and screenshoot key*/
-     { 0,                            XK_F1,     spawn,          {.v = vollower } },
-     { 0,                            XK_F2,     spawn,          {.v = volraise } },
-     { 0,                            XK_F3,     spawn,          {.v = volmute } },
-     { 0,                            XK_F5,     spawn,          {.v = scrsht } }, 
+     { 0,                            XK_F5,     spawn,          {.v = vollower } },
+     { 0,                            XK_F6,     spawn,          {.v = volraise } },
+     { 0,                            XK_F7,     spawn,          {.v = volmute } },
+     { 0,                            XK_F8,     spawn,          {.v = scrsht } }, 
     
 
 	TAGKEYS(                        XK_1,                      0)
@@ -123,7 +123,6 @@ static Button buttons[] = {
 	/* click                event mask      button          function        argument */
 	{ ClkLtSymbol,          0,              Button1,        setlayout,      {0} },
 	{ ClkLtSymbol,          0,              Button3,        setlayout,      {.v = &layouts[2]} },
-	{ ClkWinTitle,          0,              Button2,        zoom,           {0} },
 	{ ClkStatusText,        0,              Button2,        spawn,          {.v = termcmd } },
 	{ ClkClientWin,         MODKEY,         Button1,        movemouse,      {0} },
 	{ ClkClientWin,         MODKEY,         Button2,        togglefloating, {0} },
