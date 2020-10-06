@@ -1,9 +1,5 @@
 # Packages
 
-- change to your username in *setup.sh  
- 
- **Line:** cp -r .config /home/*Your user name*
-
 ```
 chmod +x *setup.sh
 (make the bash executable)
@@ -83,13 +79,7 @@ xorg-xsetroot
 
 ```Print Sc``` - screenshoot
 
-```alt+l``` - lock screen
-
-```alt+F10``` - poweroff
-
-```alt+F11``` - reboot
-
-```alt+F12``` - logout
+```alt+F9``` - power menu
 
 ```alt+space``` - rofi
 

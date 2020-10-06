@@ -18,29 +18,10 @@ alt + y
 	termite -e cmus
 
 
+#rofi power menu
+alt + F9
+	sh .config/rofi/powermenu.sh
 
-#lockscreen script
-alt + l
-	sh .config/launch.sh
-
-
-
-#poweroff
-alt + F10
-    sh .config/down.sh
-
-
-
-#reboot
-alt + F11
-    sh .config/reboot.sh
-
-
-
-#logout
-alt + F12 
-    sh .config/logout.sh
-            
 
 
 #launcher
