@@ -1,3 +1,15 @@
+# **"Love is temporary dotfiles are permanent"**
+
+**Written by a human, who used to live in earth before the cyberpunk dystopia take over!!!**
+
+![s1](https://raw.githubusercontent.com/nebulaxyz/walls/main/screenshots/dwm/Screenshot%20from%202020-10-07%2020-20-39.png)
+
+![s1](https://raw.githubusercontent.com/nebulaxyz/walls/main/screenshots/dwm/Screenshot%20from%202020-10-07%2020-20-59.png)
+
+![s1](https://raw.githubusercontent.com/nebulaxyz/walls/main/screenshots/dwm/Screenshot%20from%202020-10-07%2020-32-46.png)
+
+![s1](https://raw.githubusercontent.com/nebulaxyz/walls/main/screenshots/dwm/Screenshot%20from%202020-10-07%2020-49-39.png)
+
 # Installation
 
 ```
@@ -50,7 +62,8 @@ xorg-xinit
 xorg-xrandr
 xorg-xsetroot
 ```
-# **Patch added: fullgaps, notitle**
+
+**Patch applied: fullgaps, notitle**
 
 # **Custom keybindings**
 
@@ -88,31 +101,3 @@ xorg-xsetroot
 ```alt+y``` - cmus music player
 
 ```alt+p``` - pulsemixer menu
-
-
-
-
-# samples 
-
-- [Get these wallpapers!](https://github.com/nebulaxyz/wallpapers) 
-
-![s1](https://raw.githubusercontent.com/nebulaxyz/wallpapers/master/samples/2020-09-01-215940_1360x768_scrot.png)
-
-![s1](https://raw.githubusercontent.com/nebulaxyz/wallpapers/master/samples/2020-09-01-215930_1360x768_scrot.png)
-
-![s1](https://raw.githubusercontent.com/nebulaxyz/wallpapers/master/samples/Screenshot%20from%202020-08-28%2019-01-12.png)
-
-![s1](https://raw.githubusercontent.com/nebulaxyz/wallpapers/master/samples/2020-08-30-231101_1360x768_scrot.png)
-
-![s1](https://raw.githubusercontent.com/nebulaxyz/wallpapers/master/samples/Screenshot%20from%202020-08-28%2019-03-07.png)
-
-![s1](https://raw.githubusercontent.com/nebulaxyz/wallpapers/master/samples/2020-08-30-230743_1360x768_scrot.png)
-
-![s1](https://raw.githubusercontent.com/nebulaxyz/wallpapers/master/samples/Screenshot%20from%202020-08-28%2019-03-47.png)
-
-![s1](https://raw.githubusercontent.com/nebulaxyz/wallpapers/master/samples/2020-08-30-231026_1360x768_scrot.png)
-
-![s1](https://raw.githubusercontent.com/nebulaxyz/wallpapers/master/samples/Screenshot%20from%202020-08-28%2019-04-54.png)
-
-![s1](https://raw.githubusercontent.com/nebulaxyz/wallpapers/master/samples/2020-08-30-231126_1360x768_scrot.png)
-
