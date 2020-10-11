@@ -8,7 +8,7 @@
 
 ![s1](https://raw.githubusercontent.com/nebulaxyz/walls/main/screenshots/dwm/Screenshot%20from%202020-10-07%2020-32-46.png)
 
-![s1](https://raw.githubusercontent.com/nebulaxyz/walls/main/screenshots/dwm/Screenshot%20from%202020-10-07%2020-49-39.png)
+![s1](https://raw.githubusercontent.com/nebulaxyz/walls/main/screenshots/dwm/Screenshot%20from%202020-10-11%2021-23-58.png)
 
 # Installation
 
