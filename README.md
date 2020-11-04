@@ -33,7 +33,7 @@ arc-gtk-theme
 firefox
 gvfs
 gvfs-mtp
-i3lock-color
+i3lock
 file-roller
 pcmanfm-gtk3 
 transmission-gtk
