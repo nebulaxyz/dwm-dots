@@ -21,7 +21,7 @@ case $chosen in
         reboot
 	;;
     $lock)
-        sh /$HOME/.config/launch.sh
+        i3lock -c 2e3440
 	;;
     $logout)
         pkill -KILL -u $USER
