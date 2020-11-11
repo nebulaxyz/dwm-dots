@@ -69,6 +69,7 @@ static const struct arg args[] = {
         { netspeed_rx, " %sB/s | ", "enp0s3" },
         { netspeed_tx, " %sB/s  ", "enp0s3" },
 	//{ run_command, ": %4s | ", "amixer sget Master | awk -F\"[][]\" '/%/ { print $2 }' | head -n1" },
+        //{ run_command, " %s%%  ", "pamixer --get-volume" },
 	{ cpu_perc, " %s | ", NULL	      },
 	{ ram_perc, " %s  ", NULL	      }, 	
 	{ datetime, "%s",           "%a %b %d %H:%M %Y" },   
