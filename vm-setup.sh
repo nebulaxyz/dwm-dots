@@ -2,7 +2,7 @@ sudo pacman -S arc-gtk-theme cmus wmname mpv chromium i3lock pcmanfm-gtk3 gvfs f
 
 chmod +x .config/* && chmod +x .config/rofi/*
 
-cp -r .config .xinitrc .vim .vimrc .bashrc /$HOME/ && cd dwm-6.2
+cp -r .config .xinitrc .vim .vimrc .zshrc /$HOME/ && cd dwm-6.2
 
 sudo rm config.h && sudo make clean install && cd ..
 
