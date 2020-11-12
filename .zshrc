@@ -4,7 +4,9 @@ HISTSIZE=1000
 SAVEHIST=1000
 bindkey -v
 
-PROMPT=$'\n''%B%F{85}  | %b%f'
+PROMPT=$'\n''%B%F{85}%~   | %b%f'
+RPROMPT="[%h]"
+
 
 alias x='startx'
 
