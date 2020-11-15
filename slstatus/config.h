@@ -69,8 +69,8 @@ static const struct arg args[] = {
         { netspeed_rx, " %sB/s | ", "enp0s3" },
         { netspeed_tx, " %sB/s  ", "enp0s3" },
 	{ cpu_perc, " %s | ", NULL	      },
-        { run_command, "| %s%%| ", "pulsemixer --get-volume | awk '{printf$1}'" }, 
 	{ ram_perc, " %s  ", NULL	      }, 	
+	{ run_command, "| %s%%| ", "pulsemixer --get-volume | awk '{printf$1}'" }, 
 	{ datetime, "%s",           "%a %b %d %H:%M %Y" },   
 
 };
