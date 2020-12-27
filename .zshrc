@@ -3,7 +3,9 @@ HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 bindkey -v
+unsetopt nomatch
 
+#PROMPT=$'\n''%B%F{153}%~ ::  | %b%f'
 PROMPT=$'\n''%B%F{153}%~   | %b%f'
 RPROMPT="[%h]"
 
