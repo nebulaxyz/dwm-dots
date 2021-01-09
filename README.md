@@ -2,13 +2,13 @@
 
 **Written by a human, who used to live in earth before the cyberpunk dystopia take over!!!**
 
-![s1](https://raw.githubusercontent.com/nebulaxyz/walls/main/screenshots/dwm/Screenshot%20from%202020-10-07%2020-20-39.png)
+![s1](https://raw.githubusercontent.com/yperta/walls/main/screenshots/dwm/Screenshot%20from%202020-10-07%2020-20-39.png)
 
-![s1](https://raw.githubusercontent.com/nebulaxyz/walls/main/screenshots/dwm/Screenshot%20from%202020-10-07%2020-20-59.png)
+![s1](https://raw.githubusercontent.com/yperta/walls/main/screenshots/dwm/Screenshot%20from%202020-10-07%2020-20-59.png)
 
-![s1](https://raw.githubusercontent.com/nebulaxyz/walls/main/screenshots/dwm/Screenshot%20from%202020-10-07%2020-32-46.png)
+![s1](https://raw.githubusercontent.com/yperta/walls/main/screenshots/dwm/Screenshot%20from%202020-10-07%2020-32-46.png)
 
-![s1](https://raw.githubusercontent.com/nebulaxyz/walls/main/screenshots/dwm/Screenshot%20from%202020-10-11%2021-23-58.png)
+![s1](https://raw.githubusercontent.com/yperta/walls/main/screenshots/dwm/Screenshot%20from%202020-10-11%2021-23-58.png)
 
 # Installation
 
@@ -30,7 +30,7 @@ pacman -Qqe > pkgs.txt
 List of packages
 ================
 arc-gtk-theme
-firefox
+chromium
 gvfs
 gvfs-mtp
 i3lock
